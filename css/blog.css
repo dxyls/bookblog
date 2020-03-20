@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+header{
+	background-color: teal;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+h1, h2{
+	font-family: 'Lato', sans-serif;
+}
+
+/* header styles*/
+div{
+	background-image: url(img/bookshelf.jfif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 100%;
+	} 
+
+
+
+header h1{
+	color: white;
+	font-size: 50px;
+	font-family: 'Lobster', sans-serif;
+	padding: 70px;
+	text-decoration-style: outline 2px teal;
+	text-shadow: -1px -1px 0 teal,
+				 1px -1px 0 teal,
+    			-1px 1px 0 teal,
+   				 1px 1px 0 teal,  
+   				 -2px 0 0 teal,
+    			2px 0 0 teal,
+    			0 2px 0 teal,
+   				 0 -2px 0 teal;
+}
+
+header img{
+	max-width: 100%;
+	border: teal
+}
+
+header a{
+	color: white
+}
+
+nav a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+nav{
+	text-align: center;
+	height: 40px;
+	background-color: teal;
+	color: white;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+
+main{
+	max-width: 800px;
+	margin: 0 auto; 
+	padding-top: 0px;
+	padding-bottom: 200px;
+}
+
+main img{
+	max-width: 100%;
+	object-fit: contain;
+
+}
+
+h2{
+	font-size: 30px;
+	color: teal;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: white
+}
+a:hover{
+	color: white;
+	background-color: teal
+}
+
+
+
+footer{
+	background-color: teal;
+	text-align: right;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-right: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+footer img{
+	max-width: 100%;
+	max-height: 237px;
+	object-fit: contain;
+	object-position: center center;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}

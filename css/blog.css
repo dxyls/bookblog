@@ -16,6 +16,7 @@ header{
 	margin: 0;
 }
 
+
 h1, h2{
 	font-family: 'Lato', sans-serif;
 }
@@ -33,9 +34,9 @@ div{
 
 header h1{
 	color: white;
-	font-size: 8vw;
+	font-size: 9vw;
 	font-family: 'Lobster', sans-serif;
-	padding: 70px;
+	padding: 30px;
 	text-decoration-style: outline 2px teal;
 	text-shadow: -1px -1px 0 teal,
 				 1px -1px 0 teal,

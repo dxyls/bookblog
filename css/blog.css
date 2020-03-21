@@ -5,6 +5,13 @@ body{
 	line-height: 30px;
 }
 
+.flex-container {
+  display: flex;
+  max-height: 300px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 header{
 	background-color: teal;
@@ -82,10 +89,30 @@ main{
 	padding-right: 20px;
 }
 
+main a{
+	color: teal;
+	font-family: 'Lobster', sans-serif;
+}
+
+main a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+h1{
+	color: teal;
+	font-family: 'Lobster', sans-serif;
+}
+
 main img{
 	max-width: 100%;
 	object-fit: contain;
 
+}
+
+div img{
+	max-height: 200px;
+	object-fit: contain;
 }
 
 h2{
@@ -94,10 +121,10 @@ h2{
 	margin: 40px 0 10px;
 }
 
-a{
+nav a{
 	color: white
 }
-a:hover{
+nav a:hover{
 	color: white;
 	background-color: teal
 }

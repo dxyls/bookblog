@@ -8,9 +8,17 @@ body{
 .flex-container {
   display: flex;
   max-height: 300px;
-  justify-content: space-around;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #E7E7E7;
+}
+
+.books {
+	justify-content: center;
+	padding: 20px;
+	background-color: #c5c6c6;
+	align-content: center;
 }
 
 header{
@@ -36,7 +44,6 @@ div{
 	background-size: contain;
 	max-width: 100%;
 	} 
-
 
 
 header h1{
@@ -67,6 +74,7 @@ header a{
 nav a:hover{
 	opacity: .5;
 	background-color: transparent;
+	tex
 }
 
 nav{
@@ -89,7 +97,7 @@ main{
 	padding-right: 20px;
 }
 
-main a{
+h1 a{
 	color: teal;
 	font-family: 'Lobster', sans-serif;
 }
@@ -99,26 +107,31 @@ main a:hover{
 	background-color: transparent;
 }
 
+
 h1{
 	color: teal;
 	font-family: 'Lobster', sans-serif;
+	padding-top: 30px;
 }
 
 main img{
 	max-width: 100%;
 	object-fit: contain;
-
+	align-content: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 div img{
-	max-height: 200px;
+	max-height: 180px;
 	object-fit: contain;
+	align-content: center center;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 25px;
 	color: teal;
-	margin: 40px 0 10px;
 }
 
 nav a{
@@ -159,7 +172,18 @@ footer img{
 }
 
 p.caption{
-	color: #999999;
-	font-style: italic;
+	color: black;
 	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.caption{
+	font-family: 'Lato', sans-serif;
 }

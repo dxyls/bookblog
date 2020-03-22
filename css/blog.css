@@ -23,6 +23,19 @@ body{
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 	margin: 10px;
+	width: 175px;
+}
+
+.booksb {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: #c5c6c6;
+	align-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+	margin: 10px;
 }
 
 header{
@@ -78,7 +91,7 @@ header a{
 nav a:hover{
 	opacity: .5;
 	background-color: transparent;
-	tex
+	font-size: 20px;
 }
 
 nav{
@@ -147,7 +160,6 @@ nav a:hover{
 }
 
 
-
 footer{
 	background-color: teal;
 	text-align: right;
@@ -179,7 +191,7 @@ p.caption{
 	color: black;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
 }

@@ -3,22 +3,39 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+	background-color: teal;
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #E7E7E7;
+  background-color: #ccf1d2;
   flex-wrap: wrap;
 }
+
+.flex-container-title {
+  margin-top: 20px;
+  background-color: #ccf1d2;
+  justify-content: center;
+  padding-bottom: 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+div.box{
+	border: 0;
+	margin: 0;
+}
+
+
 
 .books {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	background-color: #c5c6c6;
+	background-color: #99e6b3;
 	align-content: center;
 	flex-wrap: wrap;
 	padding-bottom: 20px;
@@ -31,12 +48,51 @@ body{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	background-color: #c5c6c6;
+	background-color: #99e6b3;
 	align-content: center;
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 	margin: 10px;
 }
+
+.blogpost{
+	padding: 2px;
+	float: left;
+	background-color: white;
+	width: 500px;
+	display: block;
+}
+
+.botm{
+	color: black;
+	padding: 10px;
+}
+
+.about{
+	margin: 10px;
+	padding: 10px;
+}
+
+.box{
+	background-color: white;
+	padding: 10px;
+	margin: 30px;
+}
+
+.title{
+	font-family: 'Lobster', sans-serif;
+	color: teal;
+	text-align: center;
+	size: 10px;
+}
+
+.box2{
+	background-color: #ccf1d2;
+	padding-bottom: 8px;
+}
+
+
+
 
 header{
 	background-color: teal;
@@ -53,6 +109,12 @@ h1, h2{
 	font-family: 'Lato', sans-serif;
 }
 
+.textbox{
+	color: white;
+	background-color: #6ec6ba;
+	text-align: center;
+	padding: 10px;
+}
 /* header styles*/
 div{
 	background-image: url(img/bookshelf.jfif);
@@ -91,7 +153,6 @@ header a{
 nav a:hover{
 	opacity: .5;
 	background-color: transparent;
-	font-size: 20px;
 }
 
 nav{
@@ -102,6 +163,7 @@ nav{
 	margin: 0;
 	padding-top: .5vw;
 	padding-bottom: 25px;
+	font-size: 25px;
 }
 
 
@@ -126,9 +188,10 @@ main a:hover{
 
 
 h1{
-	color: teal;
+	color: #6ec6ba;
 	font-family: 'Lobster', sans-serif;
 	padding-top: 30px;
+	margin: 5px;
 }
 
 main img{
@@ -148,7 +211,8 @@ div img{
 
 h2{
 	font-size: 25px;
-	color: teal;
+	color: #6ec6ba;
+	margin: 2px;
 }
 
 nav a{
@@ -159,6 +223,14 @@ nav a:hover{
 	background-color: teal
 }
 
+aside{
+	float: right;
+	padding: 5px;
+	width: 200px;
+	background-color: #99e6b3;
+	border: 4px solid #ccf1d2;
+	display: block;
+}
 
 footer{
 	background-color: teal;
@@ -202,4 +274,8 @@ a{
 
 a.caption{
 	font-family: 'Lato', sans-serif;
+}
+
+h1,h2{
+	color: teal;
 }

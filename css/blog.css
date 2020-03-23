@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Verdana', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	background-color: teal;
@@ -56,7 +56,9 @@ div.box{
 }
 
 .blogpost{
-	padding: 20px;
+	padding-top: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
 	padding-bottom: 80px;
 	justify-content: center;
 	background-color: white;
@@ -91,6 +93,22 @@ div.box{
 	padding-bottom: 8px;
 }
 
+div.outer{
+	background-color: #99e6b3;
+	color: #606060;
+	margin-top: 10px;
+}
+
+div.inner{
+	background-color: #ccf1d2;
+	margin-left: 12px;
+	padding: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	font-size: 13px;
+}
+
 
 header{
 	background-color: teal;
@@ -104,7 +122,7 @@ header{
 
 
 h1, h2{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Verdana', sans-serif;
 }
 
 .textbox{
@@ -134,23 +152,23 @@ header div{
 
 
 header h1{
-	color: white;
+	color: teal;
 	font-size: 10vw;
 	line-height: 80px;
-	padding-top: 15px;
+	padding-top: 70px;
 	display: block;
 	text-align: center;
 	justify-content: center;
 	font-family: 'Lobster', sans-serif;
-	text-decoration-style: outline 2px teal;
-	text-shadow: -1px -1px 0 teal,
-				 1px -1px 0 teal,
-    			-1px 1px 0 teal,
-   				 1px 1px 0 teal,  
-   				 -2px 0 0 teal,
-    			2px 0 0 teal,
-    			0 2px 0 teal,
-   				 0 -2px 0 teal;
+	text-decoration-style: outline 2px #6ec6ba;
+	text-shadow: -2px -2px 0 #6ec6ba,
+				 2px -2px 0 #6ec6ba,
+    			-2px 2px 0 #6ec6ba,
+   				 2px 2px 0 #6ec6ba,  
+   				 -4px 0 0 #6ec6ba,
+    			4px 0 0 #6ec6ba,
+    			0 4px 0 #6ec6ba,
+   				 0 -4px 0 #6ec6ba;
 }
 
 @media screen and (min-width: 800px) {
@@ -240,8 +258,10 @@ div h3{
 }
 
 h4{
-	font-size: 15px;
+	font-size: 30px;
 	color: teal;
+	padding-bottom: 10px;
+	margin-bottom: 0;
 }
 
 nav a{
@@ -302,7 +322,7 @@ a{
 }
 
 a.caption{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Verdana', sans-serif;
 }
 
 h1,h2{
@@ -329,8 +349,17 @@ img.doctordiscretion{
 }
 
 p.review{
-	color: gray;
-	font-size: 18px;
+	color: #606060;
+	font-size: 14px;
+	margin-bottom: 3cm;
+	line-height: 25px;
+	padding-top: 20px;
+}
+
+div.review{
+	color: #606060;
+	font-size: 15px;
+	line-height: 25px;
 }
 
 .readmore{

@@ -135,11 +135,10 @@ header div{
 
 header h1{
 	color: white;
-	font-size: 80px;
+	font-size: 10vw;
 	line-height: 80px;
 	padding-top: 15px;
-	display: flex;
-	flex-wrap: wrap;
+	display: block;
 	text-align: center;
 	justify-content: center;
 	font-family: 'Lobster', sans-serif;
@@ -152,6 +151,12 @@ header h1{
     			2px 0 0 teal,
     			0 2px 0 teal,
    				 0 -2px 0 teal;
+}
+
+@media screen and (min-width: 800px) {
+	header h1{
+		font-size: 80px;
+	}
 }
 
 header img{
@@ -325,17 +330,17 @@ img.doctordiscretion{
 
 p.review{
 	color: gray;
+	font-size: 18px;
 }
 
 .readmore{
 	background-color: teal;
 	color: white;
-
 	float: right;
-	size: 5px;
-	padding: 5px;
+	font-size: 13px;
+	padding: 10px;
 	font-weight: bold;
-	max-width: 150px;
+	max-width: 180px;
 }
 
 a.entry :hover{

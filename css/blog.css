@@ -87,8 +87,8 @@ div.box{
 
 .blogpost{
 	padding-top: 40px;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
 	padding-bottom: 80px;
 	justify-content: center;
 	background-color: white;
@@ -231,7 +231,7 @@ nav{
 	margin: 0;
 	padding-top: .5vw;
 	padding-bottom: 50px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 
@@ -381,7 +381,7 @@ img.doctordiscretion{
 p.review{
 	color: #606060;
 	font-size: 14px;
-	margin-bottom: 3cm;
+	margin-bottom: 60px;
 	line-height: 25px;
 	padding-top: 20px;
 }

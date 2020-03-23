@@ -123,6 +123,7 @@ div.box{
 	padding-bottom: 8px;
 }
 
+
 div.outer{
 	background-color: #99e6b3;
 	color: #606060;
@@ -159,6 +160,7 @@ h1, h2{
 	color: white;
 	background-color: #6ec6ba;
 	text-align: center;
+	margin-right: inherit;
 	padding: 10px;
 }
 
@@ -377,10 +379,13 @@ hr {
 
 
 img.doctordiscretion{
-	max-height: 360px;
-	max-width: 100%;
 	display: block;
-	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	position: relative;
+	align-content: center center;
+	margin: 0;
 	padding: 0;
 	background-color: #6ec6ba;
 }

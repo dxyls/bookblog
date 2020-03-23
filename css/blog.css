@@ -56,11 +56,11 @@ div.box{
 }
 
 .blogpost{
-	padding: 2px;
-	float: left;
+	padding: 20px;
+	padding-bottom: 80px;
+	justify-content: center;
 	background-color: white;
-	width: 500px;
-	display: block;
+	position: relative;
 }
 
 .botm{
@@ -92,8 +92,6 @@ div.box{
 }
 
 
-
-
 header{
 	background-color: teal;
 	text-align: center;
@@ -115,21 +113,36 @@ h1, h2{
 	text-align: center;
 	padding: 10px;
 }
+
+.textbox2{
+	background-color: #6ec6ba;
+	text-align: center;
+	padding: 0;
+}
+
 /* header styles*/
-div{
+header div{
 	background-image: url(img/bookshelf.jfif);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	max-width: 100%;
+	width: 100%;
+	height: 200px;
 	} 
+
+
 
 
 header h1{
 	color: white;
-	font-size: 8vw;
+	font-size: 80px;
+	line-height: 80px;
+	padding-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
 	font-family: 'Lobster', sans-serif;
-	padding: 40px 80px;
 	text-decoration-style: outline 2px teal;
 	text-shadow: -1px -1px 0 teal,
 				 1px -1px 0 teal,
@@ -143,7 +156,9 @@ header h1{
 
 header img{
 	max-width: 100%;
-	border: teal
+	max-height: auto;
+	object-fit: contain;
+	object-position: center center;
 }
 
 header a{
@@ -162,7 +177,7 @@ nav{
 	color: white;
 	margin: 0;
 	padding-top: .5vw;
-	padding-bottom: 25px;
+	padding-bottom: 50px;
 	font-size: 25px;
 }
 
@@ -192,18 +207,12 @@ h1{
 	font-family: 'Lobster', sans-serif;
 	padding-top: 30px;
 	margin: 5px;
+
 }
 
-main img{
-	max-width: 100%;
-	object-fit: contain;
-	align-content: center;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
 
-div img{
+
+div.books img{
 	max-height: 180px;
 	object-fit: contain;
 	align-content: center center;
@@ -213,6 +222,21 @@ h2{
 	font-size: 25px;
 	color: #6ec6ba;
 	margin: 2px;
+}
+
+h3{
+	font-size: 15px;
+	color: #d3d3d3;
+}
+
+div h3{
+	padding-bottom: 0;
+	margin-bottom: 5px;
+}
+
+h4{
+	font-size: 15px;
+	color: teal;
 }
 
 nav a{
@@ -279,3 +303,43 @@ a.caption{
 h1,h2{
 	color: teal;
 }
+
+hr {
+	border-top: 1px dotted;
+	color: #d3d3d3;
+	padding-top: 0;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+
+
+img.doctordiscretion{
+	max-height: 360px;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	padding: 0;
+	background-color: #6ec6ba;
+}
+
+p.review{
+	color: gray;
+}
+
+.readmore{
+	background-color: teal;
+	color: white;
+
+	float: right;
+	size: 5px;
+	padding: 5px;
+	font-weight: bold;
+	max-width: 150px;
+}
+
+a.entry :hover{
+	opacity: .5;
+	background-color: transparent;
+}
+

@@ -294,6 +294,13 @@ h4{
 	margin-bottom: 0;
 }
 
+h5{
+	font-size: 15px;
+	color: teal;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
 nav a{
 	color: white
 }
@@ -407,3 +414,10 @@ a.entry :hover{
 	background-color: transparent;
 }
 
+
+p.highlight{
+	color: teal;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}

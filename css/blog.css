@@ -414,7 +414,7 @@ div.review{
 	max-width: 180px;
 }
 
-a.entry :hover{
+a :hover{
 	opacity: .5;
 	background-color: transparent;
 }

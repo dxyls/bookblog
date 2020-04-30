@@ -14,7 +14,6 @@ body{
   background-color: #ccf1d2;
   flex-wrap: wrap;
   align-content: center;
-  padding: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -49,16 +48,17 @@ div.box{
 	width: 175px;
 }
 
+
 .booksb {
 	display: flex;
 	justify-content: center;
-	padding: 20px;
+	padding: 10px;
 	background-color: #99e6b3;
 	align-content: center;
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 	margin: 10px;
-	width: 300px;
+	width: 400px;
 }
 
 .bookcover{
@@ -110,6 +110,10 @@ div.box{
 	background-color: white;
 	padding: 10px;
 	margin: 30px;
+}
+
+div.box{
+	margin-bottom: 5px;
 }
 
 .title{
@@ -351,10 +355,11 @@ footer img{
 p.caption{
 	color: black;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
+	padding: 10px;
 }
 
 a{

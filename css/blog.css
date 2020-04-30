@@ -426,3 +426,7 @@ p.highlight{
 	font-size: 20px;
 	font-weight: bold;
 }
+
+a {
+	color: teal;
+}
